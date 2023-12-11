@@ -22,5 +22,8 @@ pipeline {
                 echo 'Hello World'
             }
         }
-    }
-}
+        stage('webhooktest') {
+            steps {
+                echo 'Hello World'
+            }
+        }
